@@ -1,0 +1,6 @@
+[[rules]]
+id = "terraform-hardcoded-password"
+description = "Detect hardcoded passwords in Terraform files"
+regex = '''(?i)(vm_password|password|admin_password)\s*=\s*["'][^"']+["']'''
+path = '''(?i)\.(tf|tfvars)$'''
+secretGroup = 0

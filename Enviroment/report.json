@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "terraform-hardcoded-password",
+  "Description": "Detect hardcoded passwords in Terraform files",
+  "StartLine": 51,
+  "EndLine": 51,
+  "StartColumn": 10,
+  "EndColumn": 38,
+  "Match": "vm_password = \"Password1234!\"",
+  "Secret": "vm_password",
+  "File": "dev-prod/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.2776134,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "dev-prod/terraform.tfvars:terraform-hardcoded-password:51"
+ }
+]

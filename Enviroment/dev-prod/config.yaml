@@ -1,0 +1,9 @@
+detectors:
+  - name: TerraformPasswordDetector
+    keywords:
+      - vm_password
+      - admin_password
+      - password
+    regex:
+      terraformPassword: '(?i)(?:vm_password|admin_password|password)\s*=\s*"([^"]+)"'
+    description: "Detects hardcoded passwords in Terraform files"
