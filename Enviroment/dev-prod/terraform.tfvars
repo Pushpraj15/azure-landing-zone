@@ -3,6 +3,10 @@ rgfirst = {
         name = "rg24july"
         location = "centralindia"
     }
+        rg2 = {
+        name = "rg8aug"
+        location = "centralindia"
+    }
 }
 
 vnets = {
