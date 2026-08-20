@@ -11,6 +11,10 @@ rgfirst = {
         name = "rg12aug"
         location = "centralindia"
     }
+                rg4 = {
+        name = "rg20aug"
+        location = "centralindia"
+    }
 
 }
 
