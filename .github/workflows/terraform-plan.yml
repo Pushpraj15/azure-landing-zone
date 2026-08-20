@@ -1,6 +1,10 @@
 name: Terraform Plan
 
 on:
+  push:
+    branches:
+      - 'feature/**'
+
   pull_request:
     branches:
       - main
@@ -15,7 +19,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Environment/dev-prod
+        working-directory: ./Enviroment/dev-prod
 
     steps:
       - name: Checkout code
