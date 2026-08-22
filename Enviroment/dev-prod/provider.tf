@@ -9,6 +9,6 @@ terraform {
 
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
-    subscription_id = "348a9362-85ef-4e14-a829-612633e9fcb7"
+    subscription_id = "f0a2977e-fb6f-4167-8475-b5b72fe80690"
   features {}
 }
